@@ -18,6 +18,8 @@ from fastapi.testclient import TestClient
 from requests.auth import _basic_auth_str
 from sqlalchemy import select
 
+from tests.conftest import (CURRENT_TEST_STRATEGY, EXMS, create_mock_trades, get_mock_coro,
+                            get_patched_uptradingbot, log_has, log_has_re, patch_get_signal)
 from uptrading.__init__ import __version__
 from uptrading.enums import CandleType, RunMode, State, TradingMode
 from uptrading.exceptions import DependencyException, ExchangeError, OperationalException
@@ -29,12 +31,10 @@ from uptrading.rpc.api_server import ApiServer
 from uptrading.rpc.api_server.api_auth import create_token, get_user_from_token
 from uptrading.rpc.api_server.uvicorn_threaded import UvicornServer
 from uptrading.rpc.api_server.webserver_bgwork import ApiBG
-from tests.conftest import (CURRENT_TEST_STRATEGY, EXMS, create_mock_trades, get_mock_coro,
-                            get_patched_uptradingbot, log_has, log_has_re, patch_get_signal)
 
 
 BASE_URI = "/api/v1"
-_TEST_USER = "FreqTrader"
+_TEST_USER = "UpTrading"
 _TEST_PASS = "SuperSecurePassword1!"
 _TEST_WS_TOKEN = "secret_Ws_t0ken"
 

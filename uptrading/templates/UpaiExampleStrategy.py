@@ -70,9 +70,9 @@ class UpaiExampleStrategy(IStrategy):
         More details on how these config defined parameters accelerate feature engineering
         in the documentation at:
 
-        https://www.uptrading.io/en/latest/upai-parameter-table/#feature-parameters
+        https://www.egiftcard.cc/en/latest/upai-parameter-table/#feature-parameters
 
-        https://www.uptrading.io/en/latest/upai-feature-engineering/#defining-the-features
+        https://www.egiftcard.cc/en/latest/upai-feature-engineering/#defining-the-features
 
         :param dataframe: strategy dataframe which will receive the features
         :param period: period of the indicator - usage example:
@@ -132,9 +132,9 @@ class UpaiExampleStrategy(IStrategy):
         More details on how these config defined parameters accelerate feature engineering
         in the documentation at:
 
-        https://www.uptrading.io/en/latest/upai-parameter-table/#feature-parameters
+        https://www.egiftcard.cc/en/latest/upai-parameter-table/#feature-parameters
 
-        https://www.uptrading.io/en/latest/upai-feature-engineering/#defining-the-features
+        https://www.egiftcard.cc/en/latest/upai-feature-engineering/#defining-the-features
 
         :param dataframe: strategy dataframe which will receive the features
         :param metadata: metadata of current pair
@@ -167,7 +167,7 @@ class UpaiExampleStrategy(IStrategy):
 
         More details about feature engineering available:
 
-        https://www.uptrading.io/en/latest/upai-feature-engineering
+        https://www.egiftcard.cc/en/latest/upai-feature-engineering
 
         :param dataframe: strategy dataframe which will receive the features
         :param metadata: metadata of current pair
@@ -189,7 +189,7 @@ class UpaiExampleStrategy(IStrategy):
 
         More details about feature engineering available:
 
-        https://www.uptrading.io/en/latest/upai-feature-engineering
+        https://www.egiftcard.cc/en/latest/upai-feature-engineering
 
         :param dataframe: strategy dataframe which will receive the targets
         :param metadata: metadata of current pair

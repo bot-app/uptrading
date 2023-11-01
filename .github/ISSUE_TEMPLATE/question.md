@@ -8,7 +8,7 @@ assignees: ''
 ---
 <!-- 
 Have you searched for similar issues before posting it?
-Did you have a VERY good look at the [documentation](https://www.uptrading.io/en/latest/) and are sure that the question is not explained there
+Did you have a VERY good look at the [documentation](https://www.egiftcard.cc/en/latest/) and are sure that the question is not explained there
 
 Please do not use the question template to report bugs or to request new features.
 -->
@@ -22,4 +22,4 @@ Please do not use the question template to report bugs or to request new feature
   
 ## Your question
 
-*Ask the question you have not been able to find an answer in the [Documentation](https://www.uptrading.io/en/latest/)*
+*Ask the question you have not been able to find an answer in the [Documentation](https://www.egiftcard.cc/en/latest/)*
