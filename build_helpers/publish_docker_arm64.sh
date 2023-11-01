@@ -3,9 +3,9 @@
 # Use BuildKit, otherwise building on ARM fails
 export DOCKER_BUILDKIT=1
 
-IMAGE_NAME=uptradingorg/uptrading
-CACHE_IMAGE=uptradingorg/uptrading_cache
-GHCR_IMAGE_NAME=ghcr.io/uptrading/uptrading
+IMAGE_NAME=khulnasoft/uptrading
+CACHE_IMAGE=bot-app/uptrading_cache
+GHCR_IMAGE_NAME=ghcr.io/bot-app/uptrading
 
 # Replace / with _ to create a valid tag
 TAG=$(echo "${BRANCH_NAME}" | sed -e "s/\//_/g")

@@ -2,8 +2,8 @@
 
 # The below assumes a correctly setup docker buildx environment
 
-IMAGE_NAME=uptradingorg/uptrading
-CACHE_IMAGE=uptradingorg/uptrading_cache
+IMAGE_NAME=khulnasoft/uptrading
+CACHE_IMAGE=khulnasoft/uptrading_cache
 # Replace / with _ to create a valid tag
 TAG=$(echo "${BRANCH_NAME}" | sed -e "s/\//_/g")
 TAG_PLOT=${TAG}_plot

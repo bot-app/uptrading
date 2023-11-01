@@ -1,4 +1,4 @@
-FROM uptradingorg/uptrading:develop_upairl
+FROM khulnasoft/uptrading:develop_upairl
 
 USER root
 # Install dependencies

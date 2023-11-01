@@ -14,4 +14,4 @@ jobs:
       env:
         DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        DOCKERHUB_REPOSITORY: uptradingorg/uptrading
+        DOCKERHUB_REPOSITORY: khulnasoft/uptrading

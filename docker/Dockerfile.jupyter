@@ -1,4 +1,4 @@
-FROM uptradingorg/uptrading:develop_plot
+FROM khulnasoft/uptrading:develop_plot
 
 
 # Pin jupyter-client to avoid tornado version conflict
