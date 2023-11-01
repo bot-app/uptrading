@@ -2,10 +2,10 @@
 version: '3'
 services:
   uptrading:
-    image: uptradingorg/uptrading:stable
-    # image: uptradingorg/uptrading:develop
+    image: khulnasoft/uptrading:stable
+    # image: khulnasoft/uptrading:develop
     # Use plotting image
-    # image: uptradingorg/uptrading:develop_plot
+    # image: khulnasoft/uptrading:develop_plot
     # # Enable GPU Image and GPU Resources (only relevant for upAi)
     # # Make sure to uncomment the whole deploy section
     # deploy:
