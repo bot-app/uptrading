@@ -1,0 +1,13 @@
+[Unit]
+Description=Uptrading Daemon
+After=network.target
+
+[Service]
+# Set WorkingDirectory and ExecStart to your file paths accordingly
+# NOTE: %h will be resolved to /home/<username>
+WorkingDirectory=%h/uptrading
+ExecStart=/usr/bin/uptrading trade
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

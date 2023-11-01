@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+recursive-include uptrading *.py
+recursive-include uptrading/templates/ *.j2 *.ipynb
+include uptrading/exchange/binance_leverage_tiers.json
+include uptrading/rpc/api_server/ui/fallback_file.html
+include uptrading/rpc/api_server/ui/favicon.ico
