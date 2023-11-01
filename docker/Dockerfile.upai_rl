@@ -1,0 +1,8 @@
+ARG sourceimage=uptradingorg/uptrading
+ARG sourcetag=develop_upai
+FROM ${sourceimage}:${sourcetag}
+
+# Install dependencies
+COPY requirements-upai.txt requirements-upai-rl.txt /uptrading/
+
+RUN pip install -r requirements-upai-rl.txt --user --no-cache-dir

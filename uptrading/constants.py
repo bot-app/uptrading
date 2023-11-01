@@ -67,7 +67,7 @@ FTHYPT_FILEVERSION = 'fthypt_fileversion'
 USERPATH_HYPEROPTS = 'hyperopts'
 USERPATH_STRATEGIES = 'strategies'
 USERPATH_NOTEBOOKS = 'notebooks'
-USERPATH_FREQAIMODELS = 'freqaimodels'
+USERPATH_UPAIMODELS = 'upaimodels'
 
 TELEGRAM_SETTING_OPTIONS = ['on', 'off', 'silent']
 WEBHOOK_FORMAT_OPTIONS = ['form', 'json', 'raw']
@@ -268,7 +268,7 @@ CONF_SCHEMA = {
         },
         'exchange': {'$ref': '#/definitions/exchange'},
         'edge': {'$ref': '#/definitions/edge'},
-        'freqai': {'$ref': '#/definitions/freqai'},
+        'upai': {'$ref': '#/definitions/upai'},
         'external_message_consumer': {'$ref': '#/definitions/external_message_consumer'},
         'experimental': {
             'type': 'object',
@@ -561,7 +561,7 @@ CONF_SCHEMA = {
             },
             'required': ['producers']
         },
-        "freqai": {
+        "upai": {
             "type": "object",
             "properties": {
                 "enabled": {"type": "boolean", "default": False},
