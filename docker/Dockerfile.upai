@@ -1,4 +1,4 @@
-ARG sourceimage=uptradingorg/uptrading
+ARG sourceimage=khulnasoft/uptrading
 ARG sourcetag=develop
 FROM ${sourceimage}:${sourcetag}
 
