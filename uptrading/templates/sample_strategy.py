@@ -20,7 +20,7 @@ import uptrading.vendor.qtpylib.indicators as qtpylib
 class SampleStrategy(IStrategy):
     """
     This is a sample strategy to inspire you.
-    More information in https://www.uptrading.io/en/latest/strategy-customization/
+    More information in https://www.egiftcard.cc/en/latest/strategy-customization/
 
     You can:
         :return: a Dataframe with all mandatory indicators for the strategies
