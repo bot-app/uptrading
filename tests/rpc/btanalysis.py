@@ -372,9 +372,9 @@ def evaluate_result_multi(results: pd.DataFrame, timeframe: str,
     Find overlapping trades by expanding each trade once per period it was open
     and then counting overlaps
     :param results: Results Dataframe - can be loaded
-    :param timeframe: Frequency used for the backtest
+    :param timeframe: UpTradinguency used for the backtest
     :param max_open_trades: parameter max_open_trades used during backtest run
-    :return: dataframe with open-counts per time-period in freq
+    :return: dataframe with open-counts per time-period in UpTrading
     """
     df_final = analyze_trade_parallelism(results, timeframe)
     return df_final[df_final['open_trades'] > max_open_trades]
